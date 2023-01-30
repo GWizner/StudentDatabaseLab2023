@@ -1,0 +1,15 @@
+C:\Users\wizne\source\repos\StudentDatabaseLab2023\bin\Debug\net6.0\StudentDatabaseLab2023.exe
+C:\Users\wizne\source\repos\StudentDatabaseLab2023\bin\Debug\net6.0\StudentDatabaseLab2023.deps.json
+C:\Users\wizne\source\repos\StudentDatabaseLab2023\bin\Debug\net6.0\StudentDatabaseLab2023.runtimeconfig.json
+C:\Users\wizne\source\repos\StudentDatabaseLab2023\bin\Debug\net6.0\StudentDatabaseLab2023.dll
+C:\Users\wizne\source\repos\StudentDatabaseLab2023\bin\Debug\net6.0\StudentDatabaseLab2023.pdb
+C:\Users\wizne\source\repos\StudentDatabaseLab2023\obj\Debug\net6.0\StudentDatabaseLab2023.csproj.AssemblyReference.cache
+C:\Users\wizne\source\repos\StudentDatabaseLab2023\obj\Debug\net6.0\StudentDatabaseLab2023.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wizne\source\repos\StudentDatabaseLab2023\obj\Debug\net6.0\StudentDatabaseLab2023.AssemblyInfoInputs.cache
+C:\Users\wizne\source\repos\StudentDatabaseLab2023\obj\Debug\net6.0\StudentDatabaseLab2023.AssemblyInfo.cs
+C:\Users\wizne\source\repos\StudentDatabaseLab2023\obj\Debug\net6.0\StudentDatabaseLab2023.csproj.CoreCompileInputs.cache
+C:\Users\wizne\source\repos\StudentDatabaseLab2023\obj\Debug\net6.0\StudentDatabaseLab2023.dll
+C:\Users\wizne\source\repos\StudentDatabaseLab2023\obj\Debug\net6.0\refint\StudentDatabaseLab2023.dll
+C:\Users\wizne\source\repos\StudentDatabaseLab2023\obj\Debug\net6.0\StudentDatabaseLab2023.pdb
+C:\Users\wizne\source\repos\StudentDatabaseLab2023\obj\Debug\net6.0\StudentDatabaseLab2023.genruntimeconfig.cache
+C:\Users\wizne\source\repos\StudentDatabaseLab2023\obj\Debug\net6.0\ref\StudentDatabaseLab2023.dll
