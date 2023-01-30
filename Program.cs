@@ -20,7 +20,8 @@ namespace StudentDatabaseLab2023
             };
 
             bool keepAsk = true;
-
+            bool stuName = true;
+            
             Console.WriteLine("Welcome to the student databse.");
             while (keepAsk)
             {
@@ -30,7 +31,7 @@ namespace StudentDatabaseLab2023
                     Console.WriteLine("Please enter the number for the student you would like choose from " +
                         "1 - 4. If you know the name of the student you would like to see, you may enter that " +
                         "instead. (Enter 5 for a list of current students.): ");
-                    string userAns1 = Console.ReadLine();
+                    string userAns1 = Console.ReadLine().ToLower();
                     goodAns = int.TryParse(userAns1, out int userChoice);
 
                     Console.WriteLine();
@@ -46,7 +47,6 @@ namespace StudentDatabaseLab2023
                         {
                             foreach (Names nameSearch in names)
                             {
-                                //string student = nameSearch.name;
                                 Console.WriteLine(nameSearch.name);
                             }
                             Console.WriteLine();
@@ -60,7 +60,28 @@ namespace StudentDatabaseLab2023
                     }
                     else if (!goodAns)
                     {
-                        if (names.Any(x => x.name.Contains(userAns1, StringComparison.CurrentCultureIgnoreCase)))
+                        if (userAns1 == "john" || userAns1 == "lennon")
+                        {
+                            stuName = true;
+                        }
+                        else if (userAns1 == "paul" || userAns1 == "mccartney")
+                        {
+                            stuName = true;
+                        }
+                        else if (userAns1 == "george" || userAns1 == "harrison")
+                        {
+                            stuName = true;
+                        }
+                        else if (userAns1 == "ringo" || userAns1 == "starr")
+                        {
+                            stuName = true;
+                        }
+                        else
+                        {
+                            stuName = false;
+                        }
+
+                        if (stuName && names.Any(x => x.name.Contains(userAns1, StringComparison.CurrentCultureIgnoreCase)))
                         {
                             foreach (Names nameSearch in names)
                             {
@@ -73,15 +94,15 @@ namespace StudentDatabaseLab2023
                             ExtraInfo.stuInfo(userChoice, goodAns, userAns1);
                             goodAns = true;
                         }
-                        else
+                        else if (!stuName)
                         {
-                            Console.WriteLine("I do not understand your input. Please try again\n");
+                            Console.WriteLine("I do not understand your input. Please try again.\n");
                         }
                     }
-
                 }
                 keepAsk = Validator.getContinue();
             }
         }
     }
 }
+
